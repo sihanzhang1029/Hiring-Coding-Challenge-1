@@ -43,7 +43,7 @@ Then, I enter the command ```crontab -l``` to check whether the cron job is set.
 
 Note that to use the crontab, we must grant Full Disk Access to cron with [instructions](https://www.bejarano.io/fixing-cron-jobs-in-mojave/)
 
-I use logger to record the update time. The specific update times will be tracked in the log file.
+I use logger to record the update times. The specific update times will be tracked in the log file. Note that the log file will also record if we run the Python script manually.
 
 
 ---
