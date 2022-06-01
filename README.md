@@ -25,6 +25,7 @@ There are several things I would to mention:
 
 5. Since Reformation only sells women's clothes and new clothes, the gender will always be women and the secondhand will always be False.
 
+6. For better presentation, I added two print statements to show the total number of clothes and the progress of getting info of the clothes.
 
 ---
 
