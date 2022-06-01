@@ -1,5 +1,10 @@
 # Changing-Room-Coding-Challenge
 
+
+### My time commitment for the summer is 40h/week
+
+---
+
 ### Table of Contents
 
 - [Web Scraper](#web-scraper)
@@ -54,5 +59,7 @@ I use logger to record the update times. The specific update times will be track
 I create a Postgres database on AWS and store the data as a table called ```reformation``` in it. 
 
 Then, I use Postgres.sql and pgAdmin to check that the reformation table is now stored successfully in the database.
+
+Given that this is only a demonstration, I expose my PostgreSQL URI. Therefore, I wonder if you could email me after reviewing my submission so that then I can delete the database.
 
 Since I am afraid that if I let the instance running, the usage will go beyond the free tier usage, I stopped the instance.
