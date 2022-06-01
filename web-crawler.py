@@ -29,7 +29,7 @@ file_handler.setFormatter(logging.Formatter('%(asctime)s - %(levelname)s - %(mes
 logger.addHandler(file_handler)
 
 def do_logging():
-    logger.info("test")
+    logger.info("update")
 
 class RefScraper:
     
