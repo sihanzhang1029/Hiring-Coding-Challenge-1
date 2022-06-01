@@ -155,6 +155,9 @@ if __name__ == '__main__':
     Reformation.get_all_product_urls(1)
     df_output = Reformation.get_all_product_info()
 
+    # Store the data as csv file for inspection
+    df_output.to_csv('reformation.csv', index=False)
+
     # Store the data on an AWS RDS
     engine = create_engine('postgresql://changing_room:changingroomref@database-reformation.ccec7pjjeins.us-east-1.rds.amazonaws.com:5432/postgres')
     df_output.to_sql('reformation', engine)
