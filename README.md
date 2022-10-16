@@ -1,7 +1,5 @@
-# Changing-Room-Coding-Challenge
+# Hiring-Coding-Challenge-1
 
-
-### My time commitment for the summer is 40h/week
 
 ---
 
